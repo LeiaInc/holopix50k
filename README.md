@@ -1,6 +1,6 @@
 # Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
 
-![Holopix50k]((https://raw.githubusercontent.com/pritish-leia/holopix50k/master/images/mosaic.png "Holopix50k")
+![Holopix50k](https://github.com/LeiaInc/holopix50k/blob/pritish-leia/dataset-release/images/mosaic.png "Holopix50k")
 
 With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
 become increasingly important. Current state-of-the-art methods utilize learning-based  algorithms, where the 
