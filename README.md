@@ -16,10 +16,10 @@ estimation. Finally, we showcase practical applications of our dataset to motiva
 
 ### Linux/Mac OS
 
-To download the dataset, you will need to install the `gsutil` tool. To check if gsutil is installed and install 
+To download the dataset, you will need to install the `gsutil` tool. To check if `gsutil` is installed and install 
 if it is not, run `install_gsutil.sh` as follows:
 ```shell script
-bash install_gsutil.sh
+bash scripts/install_gsutil.sh
 ```
 
 Once you have installed `gsutil`, run the following command to download the Holopix50k dataset:
