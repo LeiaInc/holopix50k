@@ -16,8 +16,8 @@ estimation. Finally, we showcase practical applications of our dataset to motiva
 
 ### Linux/Mac OS
 
-To download the dataset, you will need to install the `gsutil` tool. To check and install gsutil, run 
-`install_gsutil.sh` as follows:
+To download the dataset, you will need to install the `gsutil` tool. To check if gsutil is installed and install 
+if it is not, run `install_gsutil.sh` as follows:
 ```shell script
 bash install_gsutil.sh
 ```
