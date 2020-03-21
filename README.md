@@ -16,15 +16,42 @@ estimation. Finally, we showcase practical applications of our dataset to motiva
 
 ### Linux/MacOS
 
+In order to download the Holopix50k dataset, you will need to run the following command in a 
+[Python3](https://www.python.org/downloads/) environment and need either [wget](https://www.gnu.org/software/wget/) or 
+[curl](https://curl.haxx.se/docs/install.html) installed on you machine.
+ 
 To download the complete dataset, run `scripts/download_holopix50k.sh` with the download path as follows:
 ```shell script
-bash scripts/download_holopix50k.sh <DOWNLOAD_DIR>
+bash scripts/download_holopix50k.sh <DOWNLOAD_PATH>
 ```
 
-You can also chose to download only the required dataset split by giving the following optional arguments to the script:
+The above command will download the dataset at `<DOWNLOAD_PATH>/Holopix50k`.
+
+You can also chose to download only the required dataset split by giving the following optional arguments to the 
+script:
 ```shell script
-bash scripts/download_holopix50k.sh <DOWNLOAD_DIR> [train|test|val]
+bash scripts/download_holopix50k.sh <DOWNLOAD_PATH> [train|test|val]
 ```  
 
 Note that the script temporarily installs the `gsutil` tool to download the dataset. If you face issues installing 
-`gsutil`, check out the official installation guide [here](https://cloud.google.com/storage/docs/gsutil_install).
+`gsutil`, check out the official installation guide 
+[here](https://cloud.google.com/storage/docs/gsutil_install#alt-install).
+
+### Windows
+
+To download the dataset on Windows, you will need [Python](https://www.python.org/downloads/) installed on your 
+machine. Once you have Python set up, download `gsutil` from [here](https://storage.googleapis.com/pub/gsutil.zip) and
+extract the downloaded archive to some `GSUTIL_ROOT` directory (for example, `C:\gsutil`). Now run the following 
+command to download the Holopix50k dataset:
+```shell script
+python [GSUTIL_ROOT]\gsutil -m cp -n -r gs://holopix50k-dataset/Holopix50k <DOWNLOAD_PATH>
+```
+
+If you want to download a particular `SPLIT` ("train", "test" or "val") of the Holopix50k dataset, change and run the 
+above command as follows:
+```shell script
+python [GSUTIL_ROOT]\gsutil -m cp -n -r gs://holopix50k-dataset/Holopix50k/[SPLIT] <DOWNLOAD_PATH>
+```
+
+If you face issues installing `gsutil`, follow the installation guide 
+[here](https://cloud.google.com/storage/docs/gsutil_install#alt-install).
