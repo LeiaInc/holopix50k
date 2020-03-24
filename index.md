@@ -2,11 +2,11 @@
 
 [*Yiwen Hua*](mailto:owen.hua@leiainc.com), 
 [*Puneet Kohli*](mailto:puneet.kohli@leiainc.com), 
-[*Pritish Uplavikar**](mailto:pritish.uplavikar@leiainc.com), 
-[*Anand Ravi**](mailto:anand.ravi@leiainc.com), 
+[*Pritish Uplavikar*](https://www.linkedin.com/in/pritishuplavikar)*, 
+[*Anand Ravi*](mailto:anand.ravi@leiainc.com)*, 
 [*Saravana Gunaseelan*](mailto:saravana.gunaseelan@leiainc.com), 
 [*Jason Orozco*](mailto:jason.orozco@leiainc.com), 
-[*Edward Li*](mailto:edward.li@leiainc.com)
+[*Edward Li*](https://www.linkedin.com/in/edward-li-947a3829/)
 
 ![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
@@ -25,6 +25,8 @@
 ## Dataset samples
 
 {% include videoPlayer.html video="dataset_samples.mp4" %}
+
+![Holopix50k diversity](https://leiainc.github.com/holopix50k/images/holopix50k_diversity.png "Holopix50k diversity")
 
 ## Downloading the dataset
 
