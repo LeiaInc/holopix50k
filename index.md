@@ -12,6 +12,10 @@ process and statistically compare our dataset to other popular stereo datasets. 
 dataset significantly improves results for tasks such as stereo super-resolution and self-supervised monocular depth 
 estimation. Finally, we showcase practical applications of our dataset to motivate novel works and use cases.
 
+## Dataset samples
+
+{% include videoPlayer.html video="dataset_samples.mp4" %}
+
 ## Downloading the dataset
 
 ### Linux/MacOS
