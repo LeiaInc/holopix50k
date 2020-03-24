@@ -1,4 +1,4 @@
-# Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
+# <div style="text-align: center"> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </div>
 
 ![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
@@ -13,6 +13,7 @@
     dataset significantly improves results for tasks such as stereo super-resolution and self-supervised monocular depth 
     estimation. Finally, we showcase practical applications of our dataset to motivate novel works and use cases.
 </div>
+
 ## Dataset samples
 
 {% include videoPlayer.html video="dataset_samples.mp4" %}
@@ -26,7 +27,8 @@ In order to download the Holopix50k dataset, you will need to run the following 
 [curl](https://curl.haxx.se/docs/install.html) installed on you machine.
  
 To download the complete dataset, run `scripts/download_holopix50k.sh` with the download path as follows:
-```shell script
+
+```
 bash scripts/download_holopix50k.sh <DOWNLOAD_PATH>
 ```
 
@@ -34,7 +36,8 @@ The above command will download the dataset at `<DOWNLOAD_PATH>/Holopix50k`.
 
 You can also chose to download only the required dataset split by giving the following optional arguments to the 
 script:
-```shell script
+
+```
 bash scripts/download_holopix50k.sh <DOWNLOAD_PATH> [train|test|val]
 ```  
 
@@ -48,13 +51,15 @@ To download the dataset on Windows, you will need [Python](https://www.python.or
 machine. Once you have Python set up, download `gsutil` from [here](https://storage.googleapis.com/pub/gsutil.zip) and
 extract the downloaded archive to some `GSUTIL_ROOT` directory (for example, `C:\gsutil`). Now run the following 
 command to download the Holopix50k dataset:
-```shell script
+
+```
 python [GSUTIL_ROOT]\gsutil -m cp -n -r gs://holopix50k-dataset/Holopix50k <DOWNLOAD_PATH>
 ```
 
 If you want to download a particular `SPLIT` ("train", "test" or "val") of the Holopix50k dataset, change and run the 
 above command as follows:
-```shell script
+
+```
 python [GSUTIL_ROOT]\gsutil -m cp -n -r gs://holopix50k-dataset/Holopix50k/[SPLIT] <DOWNLOAD_PATH>
 ```
 
