@@ -1,10 +1,12 @@
-# Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
+<h1> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h1>
 
-<div style="text-align: center" style="font-size:400%" style="font-weight: bold"> 
-    Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset 
-</div>
-
-<center><h1> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h1></center>
+[*Yiwen Hua*](mailto:owen.hua@leiainc.com), 
+[*Puneet Kohli*](mailto:puneet.kohli@leiainc.com), 
+[*Pritish Uplavikar**](mailto:pritish.uplavikar@leiainc.com), 
+[*Anand Ravi**](mailto:anand.ravi@leiainc.com), 
+[*Saravana Gunaseelan*](mailto:saravana.gunaseelan@leiainc.com), 
+[*Jason Orozco*](mailto:jason.orozco@leiainc.com), 
+[*Edward Li*](mailto:edward.li@leiainc.com)
 
 ![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
@@ -38,14 +40,14 @@ To download the complete dataset, run `scripts/download_holopix50k.sh` with the 
 bash scripts/download_holopix50k.sh <DOWNLOAD_PATH>
 ```
 
-The above command will download the dataset at `<DOWNLOAD_PATH>/Holopix50k`.
-
 You can also chose to download only the required dataset split by giving the following optional arguments to the 
 script:
 
 ```
 bash scripts/download_holopix50k.sh <DOWNLOAD_PATH> [train|test|val]
 ```  
+
+The above command will download the dataset at `<DOWNLOAD_PATH>/Holopix50k`.
 
 Note that the script temporarily installs the `gsutil` tool to download the dataset. If you face issues installing 
 `gsutil`, check out the official installation guide 
