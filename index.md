@@ -1,17 +1,18 @@
 # Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
 
-![Holopix50k](https://github.com/LeiaInc/holopix50k/blob/master/images/mosaic.png "Holopix50k")
+![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
-With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
-become increasingly important. Current state-of-the-art methods utilize learning-based algorithms, where the 
-amount and quality of training samples heavily influence results. Existing stereo image datasets are limited 
-either in size or subject variety. Hence, algorithms trained on such datasets do not generalize well to scenarios 
-encountered in mobile photography. We present Holopix50k, a novel in-the-wild stereo image dataset, comprising 49,368 
-image pairs contributed by users of the Holopix™ mobile social platform. In this work, we describe our data collection 
-process and statistically compare our dataset to other popular stereo datasets. We experimentally show that using our 
-dataset significantly improves results for tasks such as stereo super-resolution and self-supervised monocular depth 
-estimation. Finally, we showcase practical applications of our dataset to motivate novel works and use cases.
-
+<div style="text-align: justify">
+    With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
+    become increasingly important. Current state-of-the-art methods utilize learning-based algorithms, where the 
+    amount and quality of training samples heavily influence results. Existing stereo image datasets are limited 
+    either in size or subject variety. Hence, algorithms trained on such datasets do not generalize well to scenarios 
+    encountered in mobile photography. We present Holopix50k, a novel in-the-wild stereo image dataset, comprising 49,368 
+    image pairs contributed by users of the Holopix™ mobile social platform. In this work, we describe our data collection 
+    process and statistically compare our dataset to other popular stereo datasets. We experimentally show that using our 
+    dataset significantly improves results for tasks such as stereo super-resolution and self-supervised monocular depth 
+    estimation. Finally, we showcase practical applications of our dataset to motivate novel works and use cases.
+</div>
 ## Dataset samples
 
 {% include videoPlayer.html video="dataset_samples.mp4" %}
