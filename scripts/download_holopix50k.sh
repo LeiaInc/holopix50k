@@ -62,6 +62,9 @@ if [ $# -eq 2 ]; then
             ;;
   esac
   SRCDIR="gs://holopix50k-dataset/Holopix50k/$2"
+  #
+  # Stripping the trailing `/` from the input download path.
+  # TODO (Pritish): See if this can be changed following shellcheck guidelines.
   DSTDIR="$(echo "$1" | sed 's:/*$::')/Holopix50k"
   if [ ! -d "$DSTDIR" ]; then
     mkdir "$DSTDIR"
