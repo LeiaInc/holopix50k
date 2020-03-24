@@ -1,4 +1,10 @@
-# <div style="text-align: center"> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </div>
+# Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
+
+<div style="text-align: center" style="font-size:400%" style="font-weight: bold"> 
+    Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset 
+</div>
+
+<center><h1> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h1></center>
 
 ![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
