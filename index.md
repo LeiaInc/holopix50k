@@ -1,10 +1,10 @@
-<h1> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h1>
+<center><h1> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h1></center>
 
-[*Yiwen Hua*](mailto:owen.hua@leiainc.com), 
-[*Puneet Kohli*](mailto:puneet.kohli@leiainc.com), 
-[*Pritish Uplavikar*](https://www.linkedin.com/in/pritishuplavikar)*, 
-[*Anand Ravi*](mailto:anand.ravi@leiainc.com)*, 
-[*Saravana Gunaseelan*](mailto:saravana.gunaseelan@leiainc.com), 
+[*Yiwen Hua*](https://www.linkedin.com/in/owen-yiwen-hua/), 
+[*Puneet Kohli*](https://www.linkedin.com/in/punkohl), 
+[*Pritish Uplavikar*](https://www.linkedin.com/in/pritishuplavikar)\*, 
+[*Anand Ravi*](https://www.linkedin.com/in/anandravi24)\*, 
+[*Saravana Gunaseelan*](https://www.linkedin.com/in/saravanaguna), 
 [*Jason Orozco*](mailto:jason.orozco@leiainc.com), 
 [*Edward Li*](https://www.linkedin.com/in/edward-li-947a3829/)
 
@@ -24,7 +24,11 @@
 
 ## Dataset samples
 
+The following video showcases some of the left-right image pairs from the Holopix50k dataset 
+
 {% include videoPlayer.html video="dataset_samples.mp4" %}
+
+The class diversity of the Holopix50k dataset can be seen in the images below
 
 ![Holopix50k diversity](https://leiainc.github.com/holopix50k/images/holopix50k_diversity.png "Holopix50k diversity")
 
