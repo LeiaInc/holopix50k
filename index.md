@@ -1,6 +1,6 @@
 <center><h1> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h1></center>
 
-[*Yiwen Hua*](https://www.linkedin.com/in/owen-yiwen-hua/), 
+[*Owen Hua*](https://www.linkedin.com/in/owen-yiwen-hua/), 
 [*Puneet Kohli*](https://www.linkedin.com/in/punkohl), 
 [*Pritish Uplavikar*](https://www.linkedin.com/in/pritishuplavikar)\*, 
 [*Anand Ravi*](https://www.linkedin.com/in/anandravi24)\*, 
@@ -11,7 +11,7 @@
 ![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
 <div style="text-align: justify">
-    With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
+    <b><i>Abstract.</i></b> With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
     become increasingly important. Current state-of-the-art methods utilize learning-based algorithms, where the 
     amount and quality of training samples heavily influence results. Existing stereo image datasets are limited 
     either in size or subject variety. Hence, algorithms trained on such datasets do not generalize well to scenarios 
@@ -40,7 +40,14 @@ In order to download the Holopix50k dataset, you will need to run the following 
 [Python3](https://www.python.org/downloads/) environment and need either [wget](https://www.gnu.org/software/wget/) or 
 [curl](https://curl.haxx.se/docs/install.html) installed on you machine.
 
-To download the complete dataset, run `scripts/download_holopix50k.sh` with the download path as follows:
+Once you have your environment set up, clone the `holopix50k` repository on your machine as follows:
+
+```
+git clone https://github.com/LeiaInc/holopix50k.git
+```
+
+Then, change your working directory to `holopix50k` and run `scripts/download_holopix50k.sh` as follows to download 
+the complete dataset:
 
 ```
 bash scripts/download_holopix50k.sh <DOWNLOAD_PATH>
@@ -53,7 +60,7 @@ script:
 bash scripts/download_holopix50k.sh <DOWNLOAD_PATH> [train|test|val]
 ```
 
-The above command will download the dataset at `<DOWNLOAD_PATH>/Holopix50k`.
+The above commands will download the dataset at `<DOWNLOAD_PATH>/Holopix50k`.
 
 Note that the script temporarily installs the `gsutil` tool to download the dataset. If you face issues installing 
 `gsutil`, check out the official installation guide 
@@ -87,11 +94,10 @@ The Holopix50k dataset license is declared [here](https://leiainc.github.com/hol
 
 ## About
 
-<div style="text-align: justify">
-    The Holopix50k dataset was crowd-sourced from the Holopix™ mobile social platform. Holopix was created in 2018 by 
-    Leia Inc. as a Lightfield image-sharing social media platform.
-</div>
+The Holopix50k dataset was crowd-sourced from the [Holopix™](https://www.holopix.com/) mobile social platform. Holopix was created in 2018 by 
+[Leia Inc.](https://www.leiainc.com/) as a Lightfield image-sharing social media platform.
 
 ## Contact
 
-If you have any questions about the dataset, feel free to contact any of the above listed authors.
+If you have any questions about the dataset, feel free to contact any of the above listed authors at 
+{first}.{last}@leiainc.com. 
