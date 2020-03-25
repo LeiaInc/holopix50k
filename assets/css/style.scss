@@ -1,0 +1,76 @@
+---
+---
+
+$section-headings-color: #1a1a1a;
+
+@import "{{ site.theme }}";
+
+@font-face {
+  font-family: proxima-nova;
+  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular-webfont.eot');
+  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/ProximaNova-Regular.otf') format("opentype"),
+        url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular-webfont.ttf') format("truetype"),
+        url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular-webfont.woff') format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: proxima-nova-semibold;
+  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/Proxima-Nova-Semibold.otf') format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 100px;
+}
+
+img.icon {
+    width: 50px;
+    height: 50px;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+.page-header {
+  text-align: center;
+  background-image: url("https://leiainc.github.com/holopix50k/images/leia_inc_banner.png");
+  background-size: cover;
+  background-position: bottom;
+  color: #f7f7f7;
+  font-family: proxima-nova;
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-family: proxima-nova-semibold;
+  color: $section-headings-color;
+}
