@@ -7,17 +7,17 @@ $section-headings-color: #1a1a1a;
 
 @font-face {
   font-family: proxima-nova;
-  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular-webfont.eot');
-  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/ProximaNova-Regular.otf') format("opentype"),
-        url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular-webfont.ttf') format("truetype"),
-        url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular-webfont.woff') format("woff");
+  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular.eot');
+  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular.otf') format("opentype"),
+        url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular.ttf') format("truetype"),
+        url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-regular.woff') format("woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: proxima-nova-semibold;
-  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/Proxima-Nova-Semibold.otf') format("opentype");
+  src: url('../../../holopix50k/assets/css/fonts/proxima_nova/proxima-nova-semibold.otf') format("opentype");
   font-style: normal;
   font-weight: 400;
 }
