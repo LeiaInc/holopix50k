@@ -2,6 +2,9 @@
 #
 # Holopix50k download script for Linux/MacOS. Also temporarily installs `gsutil` if not installed already.
 #
+
+set -e
+
 #######################################
 # Displays usage of the script.
 # Arguments:
