@@ -5,10 +5,10 @@
 [*Pritish Uplavikar*](https://www.linkedin.com/in/pritishuplavikar) \*, 
 [*Anand Ravi*](https://www.linkedin.com/in/anandravi24) \*, 
 [*Saravana Gunaseelan*](https://www.linkedin.com/in/saravanaguna), 
-[*Jason Orozco*](mailto:jason.orozco@leiainc.com), 
+*Jason Orozco*, 
 [*Edward Li*](https://www.linkedin.com/in/edward-li-947a3829/)
 
-<center><sub><sup>* Denotes equal contribution</sup></sub></center>
+<center><sub><sup>* denotes equal contribution</sup></sub></center>
 
 ![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
 
