@@ -1,10 +1,36 @@
 #!/bin/bash
 #
-# Holopix50k download script for Linux/MacOS. Also temporarily installs `gsutil` if not installed already.
+# Holopix50k download script for Linux/MacOS. Temporarily installs `gsutil` if not installed already.
 #
-
 set -e
-
+#
+#######################################
+# Cleans up gsutil installation after download.
+# Arguments:
+#   None
+# Outputs:
+#   Displays clean up steps.
+#######################################
+cleanup() {
+  if [ -f gsutil.tar.gz ]; then
+      echo -e "Removing gsutil.tar.gz..."
+      rm gsutil.tar.gz
+      echo -e "gsutil.tar.gz removed"
+      echo
+  fi
+  if [ -n "$GSUTILPATH" ]; then
+    if [ -d "$GSUTILPATH"/gsutil ]; then
+      echo -e "Uninstalling gsutil..."
+      rm -r "$GSUTILPATH"/gsutil
+      echo -e "gsutil uninstalled"
+    fi
+  fi
+  exit 1
+}
+#
+# Handles any keyboard interrupt and cleans up gsutil install before exiting.
+trap cleanup 1 2 3 6
+#
 #######################################
 # Displays usage of the script.
 # Arguments:
@@ -88,20 +114,17 @@ then
   dircheck "$GSUTILPATH"
   echo "Installing gsutil at $GSUTILPATH/gsutil..."
   if hash wget 2>/dev/null; then
-    wget https://storage.googleapis.com/pub/gsutil.tar.gz
+    $(wget https://storage.googleapis.com/pub/gsutil.tar.gz)
   elif hash curl 2>/dev/null; then
-    curl -O https://storage.googleapis.com/pub/gsutil.tar.gz
+    $(curl -O https://storage.googleapis.com/pub/gsutil.tar.gz)
   else
     echo -e "ERROR:\twget or curl not found. Please install either package to download the Holopix50k dataset."
     exit 1
   fi
-  tar xfz gsutil.tar.gz -C "$GSUTILPATH"
-  rm gsutil.tar.gz
+  $(tar xfz gsutil.tar.gz -C "$GSUTILPATH")
   export PATH=${PATH}:$GSUTILPATH/gsutil
-  gsutil -m cp -n -r $SRCDIR "$DSTDIR"
-  echo "Uninstalling gsutil..."
-  rm -r "$GSUTILPATH"/gsutil
-  echo "gsutil uninstalled"
+  $(gsutil -m cp -n -r $SRCDIR "$DSTDIR")
+  cleanup
 else
   gsutil -m cp -n -r $SRCDIR "$DSTDIR"
 fi
