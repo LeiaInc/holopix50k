@@ -10,7 +10,7 @@
 
 <center><sub><sup>* denotes equal contribution</sup></sub></center>
 
-![Holopix50k](https://leiainc.github.com/holopix50k/images/mosaic.png "Holopix50k")
+![Holopix50k](https://raw.githubusercontent.com/LeiaInc/holopix50k/gh-pages/images/mosaic.png "Holopix50k")
 
 {% include abstractText.html header="Abstract." text="With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
     become increasingly important. Current state-of-the-art methods utilize learning-based algorithms, where the 
