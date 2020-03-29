@@ -10,7 +10,7 @@
 
 <center><sub><sup>* denotes equal contribution</sup></sub></center>
 
-![Holopix50k](https://raw.githubusercontent.com/LeiaInc/holopix50k/gh-pages/images/mosaic.png "Holopix50k")
+![Holopix50k](https://raw.githubusercontent.com/LeiaInc/holopix50k/gh-pages/images/mosaic.jpg "Holopix50k")
 
 {% include abstractText.html header="Abstract." text="With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has 
     become increasingly important. Current state-of-the-art methods utilize learning-based algorithms, where the 
@@ -30,7 +30,7 @@ The following video showcases some of the left-right image pairs from the Holopi
 
 The class diversity of the Holopix50k dataset can be seen in the images below
 
-![Holopix50k diversity](https://leiainc.github.com/holopix50k/images/holopix50k_diversity.png "Holopix50k diversity")
+![Holopix50k diversity](https://raw.githubusercontent.com/LeiaInc/holopix50k/gh-pages/images/holopix50k_diversity.jpg "Holopix50k diversity")
 
 ## Downloading the dataset
 
