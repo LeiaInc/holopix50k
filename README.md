@@ -12,7 +12,7 @@
 <sub><sup>* Denotes equal contribution</sup></sub><br>
 
 <p align="center">
-  <img width="640" src="https://github.com/LeiaInc/holopix50k/blob/master/images/mosaic.png">
+  <img width="640" src="https://github.com/LeiaInc/holopix50k/blob/master/images/mosaic.gif">
 </p>
 
 ## Downloading the dataset
