@@ -15,6 +15,8 @@
   <img width="640" src="https://github.com/LeiaInc/holopix50k/blob/master/images/mosaic.gif">
 </p>
 
+With the mass-market adoption of dual-camera mobile phones, leveraging stereo information in computer vision has become increasingly important. Current state-of-the-art methods utilize learning-based algorithms, where the amount and quality of training samples heavily influence results. Existing stereo image datasets are limited either in size or subject variety. Hence, algorithms trained on such datasets do not generalize well to scenarios encountered in mobile photography. We present Holopix50k, a novel in-the-wild stereo image dataset, comprising 49,368 image pairs contributed by users of the Holopix™ mobile social platform.
+
 ## Downloading the dataset
 
 ### Linux/MacOS
