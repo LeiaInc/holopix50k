@@ -1,6 +1,6 @@
 <center><h2> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h2></center>
 
-#### Presented at [CVPR 2020 Workshop on Computer Vision for Augmented and Virtual Reality](https://mixedreality.cs.cornell.edu/workshop/2020)
+<center><h3> Presented at <a href="https://mixedreality.cs.cornell.edu/workshop/2020">CVPR 2020 Workshop on Computer Vision for Augmented and Virtual Reality</a> </h3></center>
 
 [*Owen Hua*](https://www.linkedin.com/in/owen-yiwen-hua/),
 [*Puneet Kohli*](https://www.linkedin.com/in/punkohl),
