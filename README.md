@@ -1,4 +1,7 @@
 # Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
+
+## This work was presented at CVPR 2020 [Workshop on Computer Vision for Augmented and Virtual Reality](https://mixedreality.cs.cornell.edu/workshop/2020), Seattle, WA, 2020.
+
 ### [Project](https://leiainc.github.io/holopix50k/) | [Paper](https://arxiv.org/abs/2003.11172)
 
 [Owen Hua](https://www.linkedin.com/in/owen-yiwen-hua/),
@@ -67,12 +70,11 @@ If you face issues installing `gsutil`, follow the installation guide
 If you use the Holopix50k dataset in your work, please cite our paper
 
 ```
-@misc{hua2020holopix50k,
-    title={Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset},
-    author={Yiwen Hua and Puneet Kohli and Pritish Uplavikar and Anand Ravi and Saravana Gunaseelan and Jason Orozco and Edward Li},
-    year={2020},
-    eprint={2003.11172},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@InProceedings{hua2020holopix50k,
+author = {Yiwen Hua and Puneet Kohli and Pritish Uplavikar and Anand Ravi and Saravana Gunaseelan and Jason Orozco and Edward Li},
+title = {Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset},
+booktitle = {CVPR Workshop on Computer Vision for Augmented and Virtual Reality, Seattle, WA, 2020.},
+month = {June},
+year = {2020}
 }
 ```
