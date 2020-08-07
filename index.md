@@ -1,5 +1,7 @@
 <center><h2> Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset </h2></center>
 
+## Presented at [CVPR 2020 Workshop on Computer Vision for Augmented and Virtual Reality](https://mixedreality.cs.cornell.edu/workshop/2020)
+
 [*Owen Hua*](https://www.linkedin.com/in/owen-yiwen-hua/),
 [*Puneet Kohli*](https://www.linkedin.com/in/punkohl),
 [*Pritish Uplavikar*](https://www.linkedin.com/in/pritishuplavikar) \*,
@@ -42,13 +44,12 @@ If you find the dataset or the benchmarks provided in this paper useful in your 
 the following BibTeX:
 
 ```
-@misc{hua2020holopix50k,
-    title={Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset},
-    author={Yiwen Hua and Puneet Kohli and Pritish Uplavikar and Anand Ravi and Saravana Gunaseelan and Jason Orozco and Edward Li},
-    year={2020},
-    eprint={2003.11172},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@InProceedings{hua2020holopix50k,
+author = {Yiwen Hua and Puneet Kohli and Pritish Uplavikar and Anand Ravi and Saravana Gunaseelan and Jason Orozco and Edward Li},
+title = {Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset},
+booktitle = {CVPR Workshop on Computer Vision for Augmented and Virtual Reality, Seattle, WA, 2020.},
+month = {June},
+year = {2020}
 }
 ```
 
