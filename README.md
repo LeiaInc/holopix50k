@@ -1,6 +1,6 @@
 # Holopix50k: A Large-Scale In-the-wild Stereo Image Dataset
 
-### Presented at [CVPR 2020 Workshop on Computer Vision for Augmented and Virtual Reality](https://mixedreality.cs.cornell.edu/workshop/2020).
+### Presented at [CVPR 2020 Workshop on Computer Vision for Augmented and Virtual Reality](https://mixedreality.cs.cornell.edu/workshop/2020)
 
 ### [Project](https://leiainc.github.io/holopix50k/) | [Paper](https://arxiv.org/abs/2003.11172)
 
