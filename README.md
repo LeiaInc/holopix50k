@@ -67,7 +67,7 @@ If you face issues installing `gsutil`, follow the installation guide
 
 ### Dataset size
 
-Note that the size of the dataset you are able to download may vary from the original dataset size of 49,368 stereo images. Holopix50k is a crowd sourced dataset from [Holopix](https://www.holopix.com/) social media platform. The original user (who posts the image on Holopix) retains the copyrights of the images they post as mentioned in our [LICENSE](https://github.com/LeiaInc/holopix50k/blob/master/LICENSE). Hence if a user deletes their image from Holopix, it is removed from our dataset. This is similar to how other crowd sourced datasets operate (eg. [WSVD](https://sites.google.com/view/wsvd/home)).
+Note that the size of the dataset you are able to download may vary from the original dataset size of 49,368 stereo images. Holopix50k is a crowd sourced dataset from [Holopix](https://www.holopix.com/) social media platform. The original user (who posts the image on Holopix) retains the copyrights of the images they post as mentioned in our [LICENSE](https://github.com/LeiaInc/holopix50k/blob/master/LICENSE). Hence, if a user deletes their image from Holopix, it is removed from our dataset and won't be available for download. This is similar to how other crowd sourced datasets operate (eg. [WSVD](https://sites.google.com/view/wsvd/home)).
 
 ## Citation
 
