@@ -65,6 +65,10 @@ python [GSUTIL_ROOT]\gsutil -m cp -n -r gs://holopix50k-dataset/Holopix50k/[SPLI
 If you face issues installing `gsutil`, follow the installation guide
 [here](https://cloud.google.com/storage/docs/gsutil_install#alt-install).
 
+### Dataset size
+
+Note that the size of the dataset you are able to download may vary from the original dataset size of 49,368 stereo images. Holopix50k is a crowd sourced dataset from [Holopix](https://www.holopix.com/) social media platform. The original user (who posts the image on Holopix) retains the copyrights of the images they post as mentioned in our [LICENSE](https://github.com/LeiaInc/holopix50k/blob/master/LICENSE). Hence, if a user deletes their image from Holopix, it is removed from our dataset and won't be available for download. This is similar to how other crowd sourced datasets operate (eg. [WSVD](https://sites.google.com/view/wsvd/home)).
+
 ## Citation
 
 If you use the Holopix50k dataset in your work, please cite our paper
