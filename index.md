@@ -68,4 +68,4 @@ The Holopix50k dataset was crowd-sourced from the [Holopix™](https://www.holop
 ## Contact
 
 If you have any questions about the dataset, feel free to contact any of the above listed authors at
-{first}.{last}@leiainc.com.
+help@leiainc.com.
